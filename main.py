@@ -1,6 +1,4 @@
-import colorama
-from colorama import Style
-from os import system
+import system
 import sys
 import time
 import random
