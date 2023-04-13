@@ -4,8 +4,6 @@ import time
 import random
 import string
 import pathlib
-from phonenumbers import carrier
-from phonenumbers import geocoder
 
 #colors--
 black="\033[0;30m"
