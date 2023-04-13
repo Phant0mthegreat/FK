@@ -1,4 +1,4 @@
-import system
+import os
 import sys
 import time
 import random
@@ -25,7 +25,7 @@ white="\033[0;37m"
 nc="\033[00m"
 #colors--
 while True:
- system("clear")
+ os.system('clear') or None
  print(f"""{bgreen}    .....                 ...         
  .H8888888x.  '`+     .xH8%"```"%.    
 :888888888888x.  !   x888~ xnHhx. ".  
@@ -54,7 +54,7 @@ while True:
  esclh=input(f"""[{green}?{white}] Digite a sua escolha: """)
 
  if esclh == '1':
-  system("clear")
+  os.system('clear') or None
   print(f"""{green}""")
   print('─────█─▄▀█──█▀▄─█─────')
   print('────▐▌──────────▐▌────')
@@ -72,7 +72,7 @@ while True:
   input('[&] Aperte em [ENTER] para voltar ao menu.')
 
  elif esclh == '2':  
-     system("clear")
+     os.system('clear') or None
      print(f"""{green}""")
      print('─────█─▄▀█──█▀▄─█─────')
      print('────▐▌──────────▐▌────')
@@ -90,7 +90,7 @@ while True:
      input('[&] Aperte em [ENTER] para voltar ao menu.')
 
  elif esclh == '3':  
-     system("clear")
+     os.system('clear') or None
      print(f"""{green}""")
      print('─────█─▄▀█──█▀▄─█─────')
      print('────▐▌──────────▐▌────')
@@ -108,7 +108,7 @@ while True:
      input('[&] Aperte em [ENTER] para voltar ao menu.')
 
  elif esclh == '4':
-     system("clear")
+     os.system('clear') or None
      print(f"""{green}""")
      print('─────█─▄▀█──█▀▄─█─────')
      print('────▐▌──────────▐▌────')
@@ -127,7 +127,7 @@ while True:
      input('[&] Aperte em [ENTER] para voltar ao menu.')
 
  elif esclh == '5':
-     system("clear")
+     os.system('clear') or None
      print(f"""{green}""")
      print('─────█─▄▀█──█▀▄─█─────')
      print('────▐▌──────────▐▌────')
@@ -145,7 +145,7 @@ while True:
      input('[&] Aperte em [ENTER] para voltar ao menu.')
 
  elif esclh == '6':
-   system("clear")
+   os.system('clear') or None
    print(f"""{green}
  ,,
 `""*$b..
